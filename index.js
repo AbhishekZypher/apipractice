@@ -8,6 +8,5 @@ mongoose.connect('mongodb://localhost/student', { useUnifiedTopology: true })
   .then(() => console.log('Connected to MongoDB Server...'))
   .catch((err) => console.error('Something went wrong...'));
 console.log('heldsilfhsdhfsdhjfhdsjkh;');
-console.log('heldsilfhsdhfsdhjfhdsjkh;');
 app.use('/api', route);
 app.listen(3000, () => console.log('Listen on port 3000'));
